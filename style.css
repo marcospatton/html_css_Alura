@@ -1,5 +1,5 @@
 body{
-	background:  #cccccc;
+	
 }
 
 #banner{
@@ -8,10 +8,15 @@ body{
 
 .principal{
 	background: #cccccc;
+	padding:  30px;
+}
+
+.titulo-principal{
+	padding-left:  20px;
 }
 
 
-h1 {
+.titulo-centralizado {
 	 text-align: center;
 }
 
@@ -24,13 +29,13 @@ p {
 
 
 #missao {
-	font-size: 20px
+	font-size: 20px;
 }
 
 
 
 em strong{
-	color: #FF0000; /*vermelho*/
+	color: #FF0000;
 }
 
 
@@ -43,10 +48,16 @@ em strong{
 
 .beneficios{
 	background: #ffffff;
+	paddin: 20px;
 }
 
-h2{
-	text-align: center;
+
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width:  20%;
+	margin-right:  15%;
 }
 
 .imagembeneficios{
